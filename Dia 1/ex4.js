@@ -2,10 +2,10 @@
 
 
  let operacoes = {
-     '+': (a,b) => a + b,
+    '+': (a,b) => a + b,
     '-': (a,b) => a - b,
-     '*': (a,b) => a*b,
-   '/': (a,b) =>( b !== 0? a/b : 'Operação invalida')
+    '*': (a,b) => a*b,
+    '/': (a,b) =>( b !== 0? a/b : 'Operação invalida')
  };
 
 let n1 = parseFloat(prompt('digite um numero: '))
